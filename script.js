@@ -94,16 +94,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load skills
     function loadSkills() {
         const skills = [
-            { name: "Python", logo: "python.png" },
-            { name: "Java", logo: "java.png" },
-            { name: "C", logo: "c.png" },
-            { name: "Flask", logo: "flask.png" },
-            { name: "GitHub", logo: "github.png" },
-            { name: "VS Code", logo: "vscode.png" },
-            { name: "OpenCV", logo: "opencv.png" },
-            { name: "HTML", logo: "html.png" },
-            { name: "CSS", logo: "css.png" },
-            { name: "JavaScript", logo: "js.png" }
+            { name: "Python", logo: "Images/python.png" },
+            { name: "Java", logo: "Images/java.png" },
+            { name: "C", logo: "Images/c.png" },
+            { name: "Flask", logo: "Images/flask.png" },
+            { name: "GitHub", logo: "Images/github.png" },
+            { name: "VS Code", logo: "Images/vscode.png" },
+            { name: "OpenCV", logo: "Images/opencv.png" },
+            { name: "HTML", logo: "Images/html.png" },
+            { name: "CSS", logo: "Images/css.png" },
+            { name: "JavaScript", logo: "Images/js.png" }
         ];
 
         const container = document.querySelector('.skills-grid');
