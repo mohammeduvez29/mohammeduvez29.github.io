@@ -7,12 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
         canvas.width = window.innerWidth;
         canvas.height = window.innerHeight;
 
-        const katakana = 'アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌフムユュルグズブヅプエェケセテネヘメレヱゲゼデベペオォコソトノホモヨョロヲゴゾドボポヴッン';
+        const binary = '0101010101010101010100000000111111';
         const latin = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
         const nums = '0123456789';
         const arabic = 'ا ب ت ث ج ح خ د ذ ر ز س ش ص ض ط ظ ع غ ف ق ك ل م ن ه و ي'
 
-        const alphabet = katakana + latin + nums + arabic;
+        const alphabet = binary + latin + nums + arabic;
 
         const fontSize = 16;
         const columns = canvas.width/fontSize;
