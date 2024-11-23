@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Mohammed Uvez Khan</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About Me</a></li>
+                <li><a href="index.html#experience">Experience</a></li>
+                <li><a href="index.html#skills">Skills</a></li>
+                <li><a href="index.html#projects">Projects</a></li>
+                <li><a href="index.html#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section id="contact">
+            <h2>&lt;Contact_Me&gt;</h2>
+            <div class="contact-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+            <div id="form-status"></div>
+            <h2>&lt;/Contact_Me&gt;</h2>
+        </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="index.html#about">About Me</a></li>
+                    <li><a href="index.html#experience">Experience</a></li>
+                    <li><a href="index.html#skills">Skills</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                    <li><a href="index.html#resume">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +91-9606701194</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:mohammeduvez29@gmail.com">mohammeduvez29@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> 161 Khairun Manzil, Horatti village, Kenjige Post, Mudigere Taluk, Chikkamagaluru District, Karnataka, India 577113</p>
+            </div>
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com/mohammeduvez29" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammeduvezkhan/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/mohammeduvez29/" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mohammed Uvez Khan. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        // JavaScript to handle form submission
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            // Form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            // Display submission message
+            const formStatus = document.getElementById('form-status');
+            formStatus.textContent = `Thank you, ${name}! Your message has been sent.`;
+
+            // Clear the form
+            document.getElementById('contact-form').reset();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Uvez Khan - Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Typing Effect Section -->
+        <section id="intro">
+            <div class="background-container">
+                <canvas id="matrix-canvas"></canvas>
+                <div class="typing-container">
+                    <h1 id="typing-text"></h1>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>&lt;About_Me&gt;</h2>
+            <div class="about-content">
+                <img src="mic.png" alt="Mohammed Uvez Khan" id="mic" />
+                <div class="about-text">
+                    <p>
+                        I am currently pursuing a Bachelor of Technology (BTech) in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning (AIML) at Dayananda Sagar University. I have built a strong foundation in programming, algorithms, and data analysis, focusing on AI and Machine Learning.
+                    </p>
+                    <p>
+                        I am passionate about learning new technologies and applying them to real-world challenges. With experience in Python, machine learning, and project development, I am always looking for opportunities to contribute and grow.
+                    </p>
+                </div>
+            </div>
+            <h2>&lt;/About_Me&gt;</h2>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <h2>&lt;Experience&gt;</h2>
+            <div class="experience-container">
+                <div class="experience-item">
+                    <img src="infosys.jpeg" alt="Infosys Logo" class="company-logo">
+                    <div class="experience-content">
+                        <h3>Infosys SpringBoard | Python Programming Intern</h3>
+                        <p class="date">November 2024 - Present</p>
+                        <p>Developing a scalable Learning Management System using Python to streamline education and training processes. Implementing features like role-based access, course management, and progress tracking for enhanced user experience.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <img src="microsoft.png" alt="Microsoft Logo" class="company-logo">
+                    <div class="experience-content">
+                        <h3>Microsoft | Microsoft Learn Student Ambassador</h3>
+                        <p class="date">July 2024 - Present</p>
+                        <p>Organizing workshops and events to share knowledge and support learning among peers, focusing on technology and skill development. Collaborating with a diverse group of students worldwide to solve problems and create impactful projects.</p>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <img src="geeksforgeeks.jpg" alt="GeeksforGeeks Logo" class="company-logo">
+                    <div class="experience-content">
+                        <h3>GeeksforGeeks | Campus Mantri</h3>
+                        <p class="date">July 2024 - Present</p>
+                        <p>Collaborating with GeeksforGeeks to increase platform awareness and drive student participation in online resources, courses, and certification programs. Helping peers enhance their problem-solving and programming abilities.</p>
+                    </div>
+                </div>
+            </div>
+            <h2>&lt;/Experience&gt;</h2>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>&lt;Skills&gt;</h2>
+            <div class="skills-grid">
+                <!-- Skills will be dynamically added by JavaScript -->
+            </div>
+            <h2>&lt;/Skills&gt;</h2>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>&lt;Projects&gt;</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="card-front">
+                        <img src="project1.jpg" alt="Facial Recognition Model" class="project-image">
+                        <div class="project-title">
+                            <h3>Facial Recognition Model</h3>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Facial Recognition Model</h3>
+                        <p>A facial recognition model using Python and OpenCV for detecting and recognizing faces on camera. Utilized image processing techniques to detect faces and match them to a predefined dataset.</p>
+                        <a href="https://github.com/mohammeduvez29/facial-recognition" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="card-front">
+                        <img src="project2.jpeg" alt="Credit Card Fraud Detection" class="project-image">
+                        <div class="project-title">
+                            <h3>Credit Card Fraud Detection</h3>
+                        </div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Credit Card Fraud Detection</h3>
+                        <p>Machine learning model to detect credit card fraud with an accuracy of 95%. Used data preprocessing and feature selection techniques to improve model performance and identify fraudulent transactions.</p>
+                        <a href="https://github.com/mohammeduvez29/credit-card-fraud-detection" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <h2>&lt;/Projects&gt;</h2>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume">
+            <h2>&lt;Resume&gt;</h2>
+            <div class="resume-container">
+                <div class="resume-preview">
+                    <img src="Resume.jpg?height=400&width=300" alt="Resume Preview" class="resume-image">
+                </div>
+                <div class="resume-content">
+                    <p>Download my resume to learn more about my qualifications and experience:</p>
+                    <a href="Mohammed_Uvez_Khan_Resume.pdf" class="resume-download" download>
+                        <i class="fas fa-file-download"></i> Download Resume (PDF)
+                    </a>
+                </div>
+            </div>
+            <h2>&lt;/Resume&gt;</h2>
+        </section>
+
+        <!-- Connect With Me Section -->
+        <section id="connect">
+            <h2>&lt;Connect_With_Me&gt;</h2>
+            <div class="connect-content">
+                <img src="selfie.jpg?height=150&width=150" alt="Mohammed Uvez Khan" class="connect-image">
+                <div class="social-links">
+                    <a href="https://github.com/mohammeduvez29" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://www.linkedin.com/in/mohammeduvezkhan/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://leetcode.com/u/mohammeduvez29/" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> LeetCode</a>
+                </div>
+            </div>
+            <h2>&lt;/Connect_With_Me&gt;</h2>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <p><i class="fas fa-phone"></i> +91-9606701194</p>
+                <p><i class="fas fa-envelope"></i> mohammeduvez29@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 161 Khairun Manzil, Horatti village, Kenjige Post, Mudigere Taluk, Chikkamagaluru District, Karnataka, India 577113</p>
+            </div>
+            <div class="footer-column">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://github.com/mohammeduvez29" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammeduvezkhan/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://leetcode.com/u/mohammeduvez29/" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Mohammed Uvez Khan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
